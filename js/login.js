@@ -11,7 +11,7 @@ document.getElementById('btn-login')
 
         const donate = document.getElementById('total-donate')
         .innerText;
-        console.log(donate)
+        console.log(donate);
 
         const addDonate = parseFloat(donateNumber);
         const addBalance = parseFloat(donate);
